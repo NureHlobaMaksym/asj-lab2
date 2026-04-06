@@ -1,0 +1,20 @@
+.base-textarea {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.25);
+  color: #e5e7eb;
+  font-size: 15px;
+  height: 44px;
+  outline: none;
+}
+
+.base-textarea::placeholder {
+  color: rgba(229, 231, 235, 0.5);
+}
+
+.base-textarea:focus {
+  border-color: rgba(231, 229, 255, 0.8);
+  box-shadow: 0 0 0 2px rgba(231, 229, 255, 0.2);
+}

@@ -1,0 +1,47 @@
+.base-button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.base-button--pill {
+  padding: 8px 16px;
+  border-radius: 14px;
+  background: transparent;
+  color: #b8bec7;
+  border: 1px solid rgba(184, 190, 199, 0.4);
+  font-weight: 600;
+  font-size: 14px;
+  height: 36px;
+}
+
+.base-button--pill.base-button--active {
+  background: #e7e5ff;
+  border-color: transparent;
+  color: #4b4b7d;
+  box-shadow: 0 4px 12px rgba(112, 96, 255, 0.35);
+}
+
+.base-button--icon {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: transparent;
+  color: #4b4b7d;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.base-button--icon.base-button--active {
+  background: #e7e5ff;
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(112, 96, 255, 0.35);
+}
+
+.base-button:active {
+  transform: translateY(1px);
+}
